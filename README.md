@@ -8,7 +8,7 @@ automático para detectar fraude en un dataset severamente desbalanceado.
 
 ## Dataset
 - **Fuente:** [Kaggle — Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
-- **Transacciones:** 284,807 registros de  europeos (septiembre 2013)
+- **Transacciones:** 284,807 registros de titulares de tarjeta europeos (septiembre 2013)
 - **Fraudes:** 492 (0.172% del total)
 - **Variables:** Time, Amount, V1-V28 (componentes principales por PCA) y Class (variable objetivo: 0=legítima, 1=fraude)
 
@@ -22,6 +22,17 @@ automático para detectar fraude en un dataset severamente desbalanceado.
 2. Análisis exploratorio y estadística
 3. Modelo predictivo
 4. Análisis SQL
+
+## Resultados del modelo
+| Métrica | Valor |
+|---|---|
+| Recall (fraude) | 0.87 |
+| Precisión (fraude) | 0.12 |
+| F1 (fraude) | 0.21 |
+| AUPRC | 0.6720 |
+| Fraudes detectados | 83 de 95 |
+| Falsas alarmas | 629 |
+| Umbral de decisión | 0.7 |
 
 ## Hallazgos principales
 
